@@ -35,85 +35,85 @@ export class PaymentCardComponent implements OnInit {
    * Validation message for missing payment card number
    */
   @Input()
-  public ccNumMissingTxt? = 'Card number is required';
+  public ccNumMissingTxt? = 'Numéro de carte est requis';
 
   /**
    * Validation message for too short payment card number
    */
   @Input()
-  public ccNumTooShortTxt? = 'Card number is too short';
+  public ccNumTooShortTxt? = 'Numéro de carte trop court';
 
   /**
    * Validation message for too long payment card number
    */
   @Input()
-  public ccNumTooLongTxt? = 'Card number is too long';
+  public ccNumTooLongTxt? = 'Numéro de carte trop long';
 
   /**
    * Validation message for payment card number that contains characters other than digits
    */
   @Input()
-  public ccNumContainsLettersTxt? = 'Card number can contain digits only';
+  public ccNumContainsLettersTxt? = 'Numéro doit contenir que des chiffres';
 
   /**
    * Validation message for invalid payment card  number (Luhn's validation)
    */
   @Input()
-  public ccNumChecksumInvalidTxt? = 'Provided card number is invalid';
+  public ccNumChecksumInvalidTxt? = 'Numéro de carte invalide';
 
   /**
    * Validation message for missing card holder name
    */
   @Input()
-  public cardHolderMissingTxt? = 'Card holder name is required';
+  public cardHolderMissingTxt? = 'Nom du titulaire est requis';
 
   /**
    * Validation message for too long card holder name
    */
   @Input()
-  public cardHolderTooLongTxt? = 'Card holder name is too long';
+  public cardHolderTooLongTxt? = 'Nom du titulaire est trop long';
 
   /**
    * Validation message for missing expiration month
    */
   @Input()
-  public expirationMonthMissingTxt? = 'Expiration month is required';
+  public expirationMonthMissingTxt? = "Mois d`'expiration requis";
 
   /**
    * Validation message for missing expiration year
    */
   @Input()
-  public expirationYearMissingTxt? = 'Expiration year is required';
+  public expirationYearMissingTxt? = "Année d`'expiration requis";
 
   /**
    * Validation message for missing CCV number
    */
   @Input()
-  public ccvMissingTxt? = 'CCV number is required';
+  public ccvMissingTxt? = 'CCV requis';
 
   /**
    * Validation message for too short CCV number
    */
   @Input()
-  public ccvNumTooShortTxt? = 'CCV number is too short';
+  public ccvNumTooShortTxt? = 'CCV trop court';
 
   /**
    * Validation message for too long CCV number
    */
   @Input()
-  public ccvNumTooLongTxt? = 'CCV number is too long';
+  public ccvNumTooLongTxt? = 'CCV trop long';
 
   /**
    * Validation message for incorrect CCV number containing characters other than digits
    */
   @Input()
-  public ccvContainsLettersTxt? = 'CCV number can contain digits only';
+  public ccvContainsLettersTxt? = 'CCV doit contenir que des chiffres';
 
   /**
    * Validation message for expired card
    */
   @Input()
-  public cardExpiredTxt? = 'Card has expired';
+  public cardExpiredTxt? = 'Carte expirée';
 
   /**
    * Switch validation of the payment card number
